@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        string[] inputArray = new string[100]; 
+        string[] inputArray = new string[100];
         int count = 0;
 
         Console.WriteLine("Введите строки для формирования массива (для завершения введите 0):");
@@ -17,8 +17,6 @@ class Program
 
             input = Console.ReadLine();
         }
-
-
 
         string[] resultArray = new string[count];
         int resultCount = 0;
